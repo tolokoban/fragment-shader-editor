@@ -1,0 +1,6 @@
+{
+  "var": {
+    "vert": "main.vert",
+    "frag": "main.frag"
+  }
+}
