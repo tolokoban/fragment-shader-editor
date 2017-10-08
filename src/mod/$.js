@@ -1,4 +1,4 @@
-exports.config={"name":"\"tolo-fast-sprite\"","description":"\"Low-level versatile yet powerfull library to paint sprites on WebGL context\"","author":"\"tolokoban\"","version":"\"1.0.0\"","major":"1","minor":"0","revision":"0","date":"2017-10-08T16:51:04.000Z","consts":{}};
+exports.config={"name":"\"fragment-shader-editor\"","description":"\"Simple visualizer of z=f(x,y,t)\"","author":"\"tolokoban\"","version":"\"1.0.1\"","major":"1","minor":"0","revision":"1","date":"2017-10-08T17:06:51.000Z","consts":{}};
 var currentLang = null;
 exports.lang = function(lang) {
     if (lang === undefined) {

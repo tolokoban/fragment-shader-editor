@@ -1,36 +1,36 @@
 {
-  "name": "fragment-shader-editor",
-  "author": "tolokoban",
-  "description": "Simple visualizer of z=f(x,y,t)",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tolokoban/fragment-shader-editor.git"
-  },
-  "homepage": "https://github.com/tolokoban/fragment-shader-editor",
-  "license": "GPL-3.0",
-  "scripts": {
-    "debug": "node node_modules/toloframework/bin/tfw.js build debug",
-    "watch": "node node_modules/toloframework/bin/tfw.js build debug watch",
-    "clean": "node node_modules/toloframework/bin/tfw.js clean",
-    "release": "node node_modules/toloframework/bin/tfw.js build version clean"
-  },
-  "bugs": {
-    "url": "https://github.com/tolokoban/fragment-shader-editor/issues"
-  },
-  "tfw": {
-    "resources": [],
-    "modules": [],
-    "compile": {
-      "type": "firefoxos",
-      "files": [
-        "index.html$"
-      ]
+    "name": "fragment-shader-editor",
+    "author": "tolokoban",
+    "description": "Simple visualizer of z=f(x,y,t)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tolokoban/fragment-shader-editor.git"
     },
-    "output": "www"
-  },
-  "version": "1.0.0",
-  "reservedModules": [],
-  "dependencies": {
-    "toloframework": "^0.42"
-  }
+    "homepage": "https://github.com/tolokoban/fragment-shader-editor",
+    "license": "GPL-3.0",
+    "scripts": {
+        "debug": "node node_modules/toloframework/bin/tfw.js build debug",
+        "watch": "node node_modules/toloframework/bin/tfw.js build debug watch",
+        "clean": "node node_modules/toloframework/bin/tfw.js clean",
+        "release": "node node_modules/toloframework/bin/tfw.js build version clean"
+    },
+    "bugs": {
+        "url": "https://github.com/tolokoban/fragment-shader-editor/issues"
+    },
+    "tfw": {
+        "resources": [],
+        "modules": [],
+        "compile": {
+            "type": "firefoxos",
+            "files": [
+                "index.html$"
+            ]
+        },
+        "output": "www"
+    },
+    "version": "1.0.1",
+    "reservedModules": [],
+    "dependencies": {
+        "toloframework": "^0.42"
+    }
 }
